@@ -100,4 +100,8 @@ form .group_inputBtn{
    font-size:18px;
    text-shadow:1px 1px 2px black;
    margin:20px auto;
+   cursor:pointer;
+   padding:5px;
+   border:1px solid blue;
+   
 }
