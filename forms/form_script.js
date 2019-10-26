@@ -20,7 +20,7 @@ $("#btn_submit").on('click', function(ev){
     if(!/(?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{8,10})$/.test($("[name='pass']").val())) mensaje = "el password no cumple con el formato";
 
     if($("[name='pass']").val()!=$("input[name='repass']").val() ) mensaje = "Los password no coinciden";
-	console.log($("[name='email']").val());
+	console.log($("[type='email']").val());
     if(!/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/i.test($("input[name='email']").val())) mensaje = "El email no cumple con el formato...";
     if(mensaje != "") {
       alert(mensaje);
