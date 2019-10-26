@@ -1,9 +1,9 @@
 $(window).ready(function(){
    // alert("Pagina lista");
   function datAjaxSession(){
-    $.ajax({url: "../php/session_ref.php", success: function(result){
+    /*$.ajax({url: "../php/session_ref.php", success: function(result){
       $("#div1").html(result);
-    }});
+    }});*/
   }
   datAjaxSession();
 
