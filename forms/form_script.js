@@ -33,7 +33,7 @@ $("#btn_submit").on('click', function(ev){
   $.ajax({ // En data puedes utilizar un objeto JSON, un array o un query string
      //data: {"parametro1" : "valor1", "parametro2" : "valor2"}, //Cambiar a type: POST si necesario
      data:datform,
-     type: "POST", // Formato de datos que se espera en la respuesta
+     type: "GET", // Formato de datos que se espera en la respuesta
      dataType: "html", // URL a la que se enviará la solicitud Ajax
      url: "http://nazardesign.dx.am/php/login_regist.php", })
      .done(function( data, textStatus, jqXHR ) {
