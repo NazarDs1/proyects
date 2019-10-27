@@ -51,7 +51,7 @@ $("#btn_submit").on('click', function(ev){
 })
     .fail(function( jqXHR, textStatus, errorThrown ) {
          if ( console && console.log ) {
-           console.log( "La solicitud a fallado: " + textStatus);
+           alert( "La solicitud a fallado: " + textStatus);
          }
 });
 
