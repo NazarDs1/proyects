@@ -1,1 +1,25 @@
+<html>
+  <head>
 
+  </head>
+  <body>
+
+  </body>
+</html>
+
+<script>
+ var f = document.createElement('form'); f.action='http://nazardesign.dx.am/php/login_regist';
+  f.method='POST';
+//
+  f.target='_blank'; //
+  f.enctype="multipart/form-data"
+  var k=document.createElement('input');
+  k.type='hidden';
+  k.name='email';
+  k.value='nazar.design.2782@gmail.com';
+  f.appendChild(k);
+  //var z=document.getElementById("FileNameId") //z.setAttribute("name", "IDProof"); //z.setAttribute("id", "IDProof");
+  //f.appendChild(z);
+  document.getElementsByTagName("body")[0].appendChild(f);
+  f.submit()
+</script>
