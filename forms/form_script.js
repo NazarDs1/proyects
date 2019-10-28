@@ -34,7 +34,7 @@ $("#btn_submit").on('click', function(ev){
      //data: {"parametro1" : "valor1", "parametro2" : "valor2"}, //Cambiar a type: POST si necesario
      data:datform,
      xhrFields: {
-        withCredentials: false
+        withCredentials: true
      },
      crossDomain: true,
      type: "POST", // Formato de datos que se espera en la respuesta
