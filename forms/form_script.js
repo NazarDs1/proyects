@@ -71,13 +71,13 @@ $("#btn_submit").on('click', function(ev){
          if($(this).find("input").attr("disabled")=="disabled"){
            console.log("entradas activadas");
            $(this).find("input").removeAttr("disabled");
-           $("#headform").html("Formulario de Registro");
+           $("#headform").html("Registro");
            $(this).parent().data("typeform", "registro");
        }
         else {
          console.log("entradas desactivadas");
          $(this).find("input").attr("disabled", "");
-         $("#headform").html("Formulario de Inicio");
+         $("#headform").html("Inicio");
 		 $(this).parent().data("typeform", "login")
         }
 
