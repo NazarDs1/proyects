@@ -39,7 +39,7 @@ $("#btn_submit").on('click', function(ev){
      crossDomain: true,
      type: "POST", // Formato de datos que se espera en la respuesta
      dataType: "html", // URL a la que se enviará la solicitud Ajax
-     url: "https://nazardess.000webhostapp.com/" 
+     url: "https://nazardess.000webhostapp.com/php/login_regist.php" 
   })
      .done(function( data, textStatus, jqXHR ) {
      $("#resp").html(data);
