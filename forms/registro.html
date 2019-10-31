@@ -22,53 +22,49 @@
     <label>Email</label>
      <input type="email" name="email" placeholder="email"/>
 </div>
-  <div class="group_input">
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no"/>
+<title>form</title>
+<link rel="icon" type="image/vnd.microsoft.icon" href="../nazardesign.ico">
+<link rel="stylesheet" href="style_forms.css" />
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="form_script.js"></script>
+<body>
+ <a href="javascript:window.history.back();">&laquo; Volver atrás</a>
+  <br/>
+<div id="div1" style="position:relative;padding:5px;text-shadow:1px 1px 2px white;background-color:rgba(200, 200, 200, .70)">
+
+  </div>
+  <br/>
+<form id="form_reg" data-typeform="login">
+<div id="headform"> Formulario de Inicio</div>
+ <div id="resp">Respuesta</div>
+<div class="group_input regist">
+    <label>Nombre</label>
+     <input type="text" name="name" disabled required class="inp_disable"/>
+</div>
+<div class="group_input">
+    <label>Email</label>
+     <input type="email" name="email" placeholder="email" required/>
+</div>
+<div class="group_input">
     <label>Password</label>
-     <input type="password" name="email"/>
+     <input type="password" name="pass" required title="(Entre 8 y 10 caracteres, por lo menos un digito y un alfanumérico, y no puede contener caracteres espaciales)" />
 </div>
 <div class="group_input regist">
     <label>Re_password</label>
-     <input type="email" name="email"/>
+     <input type="password" name="repass" disabled required class="inp_disable"/>
 </div>
 <hr>
-</div>
-  <div class="group_inputBtn">
+ <div class="group_inputBtn">
     <!--<label>Password</label>-->
-     <input type="submit" name="" value="Enviar" id="btn_submit"/>
+     <input type="submit" name="enviar" id="btn_submit" value="Enviar"/>
 </div>
 
 </form>
 <div id="registrar">Registrate</div>
-
-
-  
-<script type="text/javascript">
-//refresca la ventana madre del popup
- if(window.opener!= null)
-window.opener.location.href=window.opener.location.href;
-
-/*var OSName="Desconocido";
-
-if (navigator.appVersion.indexOf("Win")!=-1) {
-  OSName="Windows";
-  $('#el_form, #registrar').css('display','none');
-  setTimeout(function(){
-      window.open("https://nazards1.github.io/proyects/forms/registro.html" , "form" , "width=800,height=500,scrollbars=YES");
-      
-  },1000);
-  
-};
-  
-
-
-if (navigator.appVersion.indexOf("Mac")!=-1) OSName="MacOS";
-if (navigator.appVersion.indexOf("X11")!=-1) OSName="UNIX";
-if (navigator.appVersion.indexOf("Linux")!=-1) OSName="Linux";
-if (navigator.appVersion.indexOf("Android")!=-1) OSName="Android";
-//document.write('Tu sistema operativo es: '+OSName);
-//document.write('<hr>'+navigator.appVersion);
-console.log('Tu sistema operativo es: '+ OSName + '<hr>'+navigator.appVersion)
-*/
-</script>
+ <script src="../js/console-log.js"></script>
 </body>
 </html>
