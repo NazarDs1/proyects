@@ -1,0 +1,2052 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Diseño y Desarrollo para la Web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Diseño y desarrolllo de alicaciones para la web.." />
+	<meta name="keywords" content="Desarrollo web, Diseño web, html5, css3, mobile first, responsive" />
+	<meta name="author" content="Rodolfo Nazario" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="fb:app_id" content="650401035367847" />
+	<meta property="og:url" content="https://nazardesign.site/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Start" />
+	<meta property="og:description" content="Diseño y desarrollo para la web" />
+	<meta property="og:image" content="https://nazardesign.site/images/img_inicio.png" />
+	<!-- <meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" /> -->
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+	<!-- <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:wght@700&display=swap&family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Allison&family=Indie+Flower&family=Source+Sans+Pro:ital,wght@0,300;0,900;1,300;1,700&family=Yanone+Kaffeesatz:wght@700&display=swap"
+		rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Grand+Hotel"" rel="stylesheet" type="text/css"> -->
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="resources/css/animate.css?v=1.1.6">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="resources/css/icomoon.css">
+	<!-- Simple Line Icons -->
+	<link rel="stylesheet" href="resources/css/simple-line-icons.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="resources/css/magnific-popup.css?v=1.1.4.0">
+	<!-- Bootstrap  -->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="resources/css/bootstrap.css"> -->
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="resources/css/style_pinterest.css?v=1.1.0">
+
+	<!-- 
+	Default Theme Style 
+	You can change the style.css (default color purple) to one of these styles
+	
+	1. pink.css
+	2. blue.css
+	3. turquoise.css
+	4. orange.css
+	5. lightblue.css
+	6. brown.css
+	7. green.css
+
+	-->
+	<link rel="stylesheet" href="resources/css/style.css?v=8.4.4">
+
+	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
+	<link rel="stylesheet" id="theme-switch" href="resources/css/style4.css?v=8.0.3">
+	<!-- End demo purposes only -->
+	<link rel="stylesheet" href="resources/css/text_animation.css?v=2.4">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css">
+	<link rel="stylesheet" href="resources/css/wa_popup.css">
+	<style>
+		body {
+			font-family: 'Victor Mono';
+			font-style: italic;
+		}
+
+		h2,
+		h3,
+		h4,
+		h5 {
+			font-family: 'Victor Mono', monospace;
+			font-style: italic;
+			font-weight: bold;
+		}
+
+		/* For demo purpose only */
+		.mfp-s-error .mfp-preloader {
+			/* display: block !important; */
+			color: red;
+		}
+
+		/* For Demo Purposes Only ( You can delete this anytime :-) */
+		#colour-variations {
+			padding: 10px;
+			-webkit-transition: 0.5s;
+			-o-transition: 0.5s;
+			transition: 0.5s;
+			width: 140px;
+			position: fixed;
+			left: 0;
+			top: 100px;
+			z-index: 999999;
+			background: #fff;
+			/*border-radius: 4px;*/
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+		}
+
+		#colour-variations.sleep {
+			margin-left: -140px;
+		}
+
+		#colour-variations h3 {
+			text-align: center;
+			;
+			font-size: 11px;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			color: #777;
+			margin: 0 0 10px 0;
+			padding: 0;
+			;
+		}
+
+		#colour-variations ul,
+		#colour-variations ul li {
+			padding: 0;
+			margin: 0;
+		}
+
+		#colour-variations li {
+			list-style: none;
+			display: block;
+			margin-bottom: 5px !important;
+			float: left;
+			width: 100%;
+		}
+
+		#colour-variations li a {
+			width: 100%;
+			position: relative;
+			display: block;
+			overflow: hidden;
+			-webkit-border-radius: 4px;
+			-moz-border-radius: 4px;
+			-ms-border-radius: 4px;
+			border-radius: 4px;
+			-webkit-transition: 0.4s;
+			-o-transition: 0.4s;
+			transition: 0.4s;
+		}
+
+		#colour-variations li a:hover {
+			opacity: .9;
+		}
+
+		#colour-variations li a>span {
+			width: 33.33%;
+			height: 20px;
+			/* float: left; */
+			display: -moz-inline-stack;
+			display: inline-block;
+			zoom: 1;
+			*display: inline;
+		}
+
+
+		.option-toggle {
+			position: absolute;
+			right: 0;
+			top: 0;
+			margin-top: 5px;
+			margin-right: -30px;
+			width: 30px;
+			height: 30px;
+			background: #f64662;
+			text-align: center;
+			border-top-right-radius: 4px;
+			border-bottom-right-radius: 4px;
+			color: #fff;
+			cursor: pointer;
+			-webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			-ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+			box-shadow: 0 0 9px 0 rgba(0, 0, 0, .1);
+		}
+
+		.option-toggle i {
+			top: 2px;
+			position: relative;
+		}
+
+		.option-toggle:hover,
+		.option-toggle:focus,
+		.option-toggle:active {
+			color: #fff;
+			text-decoration: none;
+			outline: none;
+		}
+
+		.btn_v-mas {
+			/* display:inline-block; */
+			display: none;
+			text-decoration: none !important;
+			position: relative;
+			padding: 3px 6px;
+			background-color: coral;
+			color: white;
+			border-radius: 5px;
+			border: solid 1px white;
+			cursor: pointer;
+
+		}
+
+		.btn_v-mas:hover {
+			color: coral;
+			background-color: white;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
+	<script src="https://kit.fontawesome.com/15ebe3729b.js" crossorigin="anonymous"></script>
+	<script type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
+	<script>
+		var localHost;
+		console.log(document.domain)
+		if (document.domain != "localhost") {
+			console.log = function () { };
+			localHost = false;
+		}
+		else {
+			localHost = true;
+		}
+
+	</script>
+
+	<!-- End demo purposes only -->
+
+
+	<!-- Modernizr JS -->
+	<script src="resources/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="resources/js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<div class="modal" tabindex="-1" id="myModal">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" style="color: darkslategrey;">Para Cotizar</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">×</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p style="color: darkslategray;">Para solicitar una cotizacion de alguno de mis productos y/o
+						servicios, enviame un mensage atravez de la sección de contacto...</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary ir">Enviar mensage</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header role="banner" id="fh5co-header" style="background-color: rgba(255, 255, 255, 0.2) ;">
+		<div id="contenedorCanvas" class="blur" style="position: absolute;"></div>
+		<div id="contenedor" class="container">
+			<!-- <div class="row"> -->
+			<nav class="navbar navbar-default">
+				<div class="navbar-header">
+
+					<!-- <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> -->
+					<a class="navbar-brand" href="https://nazardesign.site"
+						style="font-family: 'Grand Hotel',cursive;">NazarDesign</a>
+				</div>
+				<div class="nav_bar">
+					<ul class="nav-menu" id="nav-menu">
+						<li class="nav-item active"><a href="#" data-nav-section="home"
+								class="nav-link"><span>Inicio</span></a></li>
+						<li class="nav-item"><a href="#works" data-nav-section="work"
+								class="nav-link"><span>Trabajos</span></a></li>
+						<!-- <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li> -->
+						<li class="nav-item"><a href="#services" data-nav-section="services"
+								class="nav-link"><span>Servicios</span></a></li>
+						<li class="nav-item"><a href="#about" data-nav-section="about" class="nav-link"
+								style="width: 8em;"><span>Acerca de...</span></a></li>
+						<li class="nav-item"><a href="#contact" data-nav-section="contact" class="nav-link"
+								data-message="Hola Rodolfo, que tal...Quiero Un poco mas de informacion de tus productos y Servicios...Gracias¡... Aqui te dejo mis datos... "
+								class="nav-link"><span>Contacto</span></a></li>
+						<li class="nav-item" style="width:170px">
+							<div style="margin-left: 10px;line-height: 50px;text-align: center;display: inline;">
+								<a href="#" onclick="doGTranslate('en|es');return false;" title="Espanish"
+									class="nturl">
+									<img src="resources/images/flags/ES.png" height="16" width="23" alt="Espanish"></a>
+								<a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese"
+									class="nturl" style="background-position:-100px -400px;">
+									<img src="resources/images/flags/PT.png" height="16" width="23" alt="Portugese"></a>
+								<a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="nturl">
+									<img src="resources/images/flags/US.png" height="16" width="23" alt="English"></a>
+					</ul>
+				</div>
+
+				<div class="hamburger">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+
+			</nav>
+			<script>
+				$(".hamburger").on("click", function () {
+					// $(".nav-menu").slideToggle("slow",function(ev){
+					// 	if($(this).css("display") == "block")
+					// 	$(this).css("display","flex");
+					// 	console.log($(this))
+					// });
+					$(".nav-menu").animate({
+						width: "toggle"
+					}, function () {
+						if ($(this).css("display") == "block")
+							$(this).css("display", "flex");
+					});
+					$(".nav-link").on("click", function () {
+						$(".nav-menu").fadeOut();
+					})
+
+
+				})
+
+				// const $boton = document.querySelector("#btnCapturar"), // El botón que desencadena
+				$objetivo = document.body, // A qué le tomamos la foto
+					$contenedorCanvas = document.querySelector("#contenedorCanvas"); // En dónde ponemos el elemento canvas
+
+				// Agregar el listener al botón
+				// $boton.addEventListener("click", () => {
+				// setTimeout("imgCanvas()",3000)
+
+				function imgCanvas() {
+					html2canvas($objetivo, { height: 100, backgroundColor: null, scrollY: 1000, y: 0, x: 0 }) // Llamar a html2canvas y pasarle el elemento
+						.then(canvas => {
+							// Cuando se resuelva la promesa traerá el canvas
+							$contenedorCanvas.appendChild(canvas); // Lo agregamos como hijo del div
+						});
+				}
+
+						// });
+			</script>
+			<style>
+				@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Fondamento&family=Yuji+Boku&display=swap");
+				/* * {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Yuji Boku", serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+} */
+
+				/* nav {
+  height: 75px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0 1rem;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #360033;
+  background: -webkit-linear-gradient(-8deg, #0b8793, #360033);
+  background: linear-gradient(-8deg, #0b8793, #360033);
+} */
+
+				ul {
+					margin-bottom: 0;
+				}
+
+				.nav_bar {
+					text-align: center;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+					-webkit-transition: all 0.5s;
+					transition: all 0.5s;
+				}
+
+				.nav-menu li {
+					list-style: none;
+					padding: 0 0.5rem;
+				}
+
+				.nav-menu {
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					margin: 0 auto;
+					text-align: center;
+					-webkit-box-align: center;
+					-ms-flex-align: center;
+					align-items: center;
+					-ms-flex-pack: distribute;
+					justify-content: space-around;
+				}
+
+				a.nav-link {
+					color: #fff;
+					text-decoration: none;
+					font-size: 1.2rem;
+					/* -webkit-transition: 2s;
+  transition: 2s; */
+					text-decoration: none;
+					background-image: linear-gradient(currentColor, currentColor);
+					background-position: 0% 100%;
+					background-repeat: no-repeat;
+					background-size: 0% 2px;
+					transition: all .3s !important;
+				}
+
+				a.nav-link:hover {
+					color: rgba(255, 102, 0, 0.836);
+					background-size: 100% 3px;
+				}
+
+				.active a.nav-link {
+					background-size: 100% 3px;
+					color: rgba(255, 102, 0, 0.836) !important;
+				}
+
+				.hamburger {
+					display: none;
+				}
+
+				.bar,
+				.fa-times {
+					width: 1.5rem;
+					height: 3px;
+					display: block;
+					color: #fff;
+					padding: 0;
+					margin: 6px;
+					-webkit-transition: 0.5s;
+					transition: 0.5s;
+					background-color: #fff;
+				}
+
+				.bar:nth-child(1) {
+					width: 100%;
+				}
+
+				.bar:nth-child(2) {
+					width: 200%;
+				}
+
+				.bar:nth-child(3) {
+					width: 300%;
+				}
+
+				@media (max-width: 992px) {
+					.hamburger {
+						display: block;
+					}
+
+					.active .bar:nth-child(2) {
+						opacity: 0;
+					}
+
+					.active .bar:nth-child(1) {
+						-webkit-transform: translateY(8px) rotate(-315deg);
+						transform: translateY(8px) rotate(-315deg);
+						width: 300%;
+					}
+
+					.active .bar:nth-child(3) {
+						-webkit-transform: translateY(-10px) rotate(-45deg);
+						transform: translateY(-10px) rotate(-45deg);
+						width: 300%;
+					}
+
+					.nav-menu {
+						width: 100%;
+						/* height: 100%; */
+						/*display: -webkit-box;
+    display: -ms-flexbox;*/
+						backdrop-filter: blur(10px);
+						display: none;
+						-webkit-box-orient: vertical;
+						-webkit-box-direction: normal;
+						-ms-flex-direction: column;
+						flex-direction: column;
+						-webkit-box-pack: justify;
+						-ms-flex-pack: justify;
+						justify-content: center;
+						align-items: center;
+						position: fixed;
+						top: 75px;
+						right: 0;
+						-webkit-transition: 0.5s;
+						transition: 0.5s;
+						margin: 0 auto;
+						background-color: rgba(0, 0, 0, 0.795);
+					}
+
+					.nav-menu li {
+						padding: 0.4rem 0;
+					}
+
+					a.nav-link {
+						margin: 0.8rem 0;
+						color: rgb(156, 154, 154);
+						z-index: 1;
+					}
+
+					.active {
+						right: 0;
+						z-index: 100;
+						transition: 0.2s ease;
+
+					}
+
+					.active a.nav-link {
+						color: orange !important;
+					}
+
+					.navbar {
+						justify-content: space-around;
+					}
+				}
+
+				@media screen and (max-width: 480px) {
+					a.nav-link {
+						padding: 0.75rem 0;
+					}
+
+					.navbar-header {
+						min-width: 208px;
+					}
+
+					#facebook_share:hover div {
+						width: 250px;
+						font-size: 15px;
+					}
+				}
+			</style>
+			<!-- </div> -->
+			<!-- <div style="position: absolute;right: 0; margin-right: 30px;top: 0;margin-top: 5px; display: inline-block;">
+			  		<a href="#" onclick="doGTranslate('en|es');return false;" title="Espanish" class="nturl" >
+						<img src="resources/images/flags/ES.png" height="16" width="23" alt="Espanish"/></a>
+					<a href="#" onclick="doGTranslate('en|pt');return false;" title="Portuguese" class="nturl"
+					style="background-position:-100px -400px;">
+						<img src="resources/images/flags/PT.png" height="16" width="23" alt="Portugese"/></a>
+					<a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="nturl">
+						<img src="resources/images/flags/US.png" height="16" width="23" alt="English"/></a>
+				</div>					    -->
+		</div>
+	</header>
+
+	<section id="fh5co-home" data-section="home" style="background-image: url(resources/images/full_image_2.webp);"
+		data-stellar-background-ratio="0.5">
+		<div class="gradient"></div>
+		<div class="container">
+			<div class="text-wrap">
+
+				<div class="text-inner">
+					<div style="position: relative;margin:auto;width: 250px">
+						<img src="resources/images/iconos/NazarDesing_logo_fotoperfil250px.webp"
+							style="position: relative;margin: auto;width: 100%">
+						<div style="position: absolute;width:100%;height:100%;top:0;left:0"></div>
+					</div>
+					<div class="row">
+
+						<div class="col-md-8 col-md-offset-2" style="width: 350px;float: none;margin: auto;">
+
+							<h1 class="to-animate notranslate"
+								style="font-family: 'Grand Hotel',cursive;margin: 0 0 -7px 0;">NazarDesign</h1>
+							<h2 class="to-animate fadeInUp animated"
+								style="/* font-family: 'Grand Hotel',cursive; */font-size: 24px;color: #b6c4c6;margin: 0 auto 22px;">
+								Diseño y desarrollo para la Web</h2>
+							<div class="text__ to-animate notranslate" id="text_" style="margin-bottom: 100px;">
+								<!-- <p id="contText_1"> Es</p> -->
+								<span
+									style="color:coral;font-size: 35px;height: 40px;vertical-align: top;line-height:35px;display:contents">&lt;/</span>
+								<p id="contText_2">
+									<span class="word wisteria">Design;</span>
+									<span class="word belize">Development;</span>
+									<span class="word pomegranate">Creative;</span>
+									<span class="word green">Digital art;</span>
+									<span class="word wisteria">Innovation;</span>
+									<span class="word belize">Trends;</span>
+									<span class="word pomegranate">Marketing;</span>
+									<span class="word green">Technology;</span>
+									<!-- <span class="word midnight">cheap.</span> -->
+								</p>
+								<span
+									style="display:contents;color:coral;font-size: 35px;height: 40px;vertical-align: top;line-height:35px">&gt;</span>
+							</div>
+
+
+							<!-- <div class="content__ to-animate" style="margin-bottom: 100px;">
+								<div class="content__container">
+									<p class=" content__container__text">NazarDesign es... </p>
+								  
+								  
+								  <ul class="content__container__list">
+									<li class="content__container__list__item">Diseño !</li>
+									<li class="content__container__list__item">Desarrollo !</li>
+									<li class="content__container__list__item">Creativ !</li>
+									<li class="content__container__list__item">Digital Art !</li>
+								  </ul>
+								</div>
+							  </div> -->
+
+
+							<!-- <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a></h2> -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slant"></div>
+	</section>
+
+	<section id="fh5co-intro">
+		<div class="container">
+			<div class="row row-bottom-padded-lg">
+				<div class="fh5co-block to-animate" style="background-image: url(resources/images/img_7.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-bulb"></i>
+						<h2>Plan</h2>
+						<p>¿Tienes un plan en marcha y quieres o necesitas algún tipo de sugerencia o asesoría
+							profesional?...</p>
+						<p><a href="#contact"
+								data-message="Hola Rodolfo, tengo un plan en marcha y necesito que me des algún tipo de sugerencia o asesoría profesional?... Gracias"
+								class="btn btn-primary">Contactame...</a></p>
+					</div>
+				</div>
+				<div class="fh5co-block to-animate" style="background-image: url(resources/images/jakob-owens.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-wrench"></i>
+						<h2>Desarrollar</h2>
+						<p>Te gusta el desarrollo web y quiere empezar a crear tu primera página, pero no sabes como?...
+							Yo te enseño...</p>
+						<p><a href="#contact"
+								data-message="Hola Rodolfo, Quiero empezar a crear mi primera página, y me gustaría que me guiaras como dar mis primeros pasos... Gracias..."
+								class="btn btn-primary">ok, vamos... </a></p>
+					</div>
+				</div>
+				<div class="fh5co-block to-animate" style="background-image: url(resources/images/img_10.jpg);">
+					<div class="overlay-darker"></div>
+					<div class="overlay"></div>
+					<div class="fh5co-text">
+						<i class="fh5co-intro-icon icon-rocket"></i>
+						<h2>Lanzamiento</h2>
+						<p>Nos ocupamos de todos los puntos y aspectos previos al lanzamiento de tu proyecto web,
+							juntos, tu o ustedes y yo, como parte del equipo de creación...</p>
+						<p><a href="#contact"
+								data-message="Hola Rodolfo, ... Me gustaría que formes parte de mi equipo de lanzamiento de mi proyecto Web..."
+								class="btn btn-primary">Crear equipo...</a></p>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row watch-video text-center to-animate">
+				<span>Watch the video</span>
+
+				<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo btn-video"><i class="icon-play2"></i></a>
+			</div> -->
+		</div>
+	</section>
+
+	<section id="fh5co-work" data-section="work">
+		<a href="" id="works"></a>
+		<div class="container ">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Trabajos</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Algunos de mis proyectos mas destacados...</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-sm " id="galeria">
+				<!-- <div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL2NvbGRiZXJncy8=" class="fh5co-project-item popup-iframe">
+						<img src="https://html.design/wp-content/uploads/2020/10/coldbergs-600x800.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto Web 1</h2>
+						<span>Coldbergs</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL2JhY2tvbi8=" class="fh5co-project-item popup-iframe">
+						<img src="https://html.design/wp-content/uploads/2021/09/banner_pre_-600x800.png" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Proyecto Web 2</h2>
+						<span>Backon</span>
+						</div>
+					</a>
+				</div>-->
+
+				<!-- <div class="clearfix visible-sm-block"></div> 
+
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL2ZlYW5lLw==" class="fh5co-project-item popup-iframe">
+						<img src="https://html.design/wp-content/uploads/2021/04/Feane-400x500.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto Web 3</h2>
+						<span>Feane</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="https://www.designevo.com/res/templates/thumb_small/red-sun-and-fly-phoenix.webp" class="fh5co-project-item image-popup">
+						<img src="https://www.designevo.com/res/templates/thumb_small/red-sun-and-fly-phoenix.webp" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto logotipo 4</h2>
+						<span>red sun and fly phoenix</span>
+						</div>
+					</a>
+				</div>
+				 -->
+				<!-- <div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="https://www.designevo.com/res/templates/thumb_small/black-ink-and-guitar.webp" class="fh5co-project-item image-popup">
+						<img src="https://www.designevo.com/res/templates/thumb_small/black-ink-and-guitar.webp" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto logotipo 2</h2>
+						<span>/black ink and guitar</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL3ByaWNpbmctdGFibGVzLXYxLw==" class="fh5co-project-item popup-iframe">
+						<img src="https://html.design/wp-content/uploads/2019/03/green-600x800.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto Web 4</h2>
+						<span>Tablas de precios adaptables</span>
+						</div>
+					</a>
+				</div> -->
+				<!--
+				 <div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="https://www.designevo.com/res/templates/thumb_small/brown-and-chocolate-ice-cream-cone.webp" class="fh5co-project-item image-popup">
+						<img src="https://www.designevo.com/res/templates/thumb_small/brown-and-chocolate-ice-cream-cone.webp" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto Logotipo 3</h2>
+						<span>brown and chocolate ice cream cone</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="https://www.designevo.com/res/templates/thumb_small/white-and-pink-cupcake.webp" class="fh5co-project-item image-popup">
+						<img src="https://www.designevo.com/res/templates/thumb_small/white-and-pink-cupcake.webp" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto 4</h2>
+						<span>white and pink cupcake</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="https://www.designevo.com/res/templates/thumb_small/brown-and-black-hot-coffee.webp" class="fh5co-project-item image-popup">
+						<img src="https://www.designevo.com/res/templates/thumb_small/brown-and-black-hot-coffee.webp" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto 2</h2>
+						<span>Brown and Black Hot Coffee</span>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-4 col-sm-6 col-xxs-12 article  to-animate">
+					<a href="works/demo?work_id=https://html.design/demo/chamb/" class="fh5co-project-item popup-iframe">
+						<img src="https://html.design/wp-content/uploads/2019/03/chamb-758x948.jpg" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<h2>Projecto web</h2>
+						<span> Chamb - Plantilla de comercio electrónico de muebles</span>
+						</div>
+					</a>
+				</div> -->
+
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center to-animate">
+					<!-- <p>* Proyectos diseñados por... <a href="https://nazardesign.site/" target="_blank">nazardesign.site</a></p> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-testimonials" data-section="testimonials" data-stellar-background-ratio="0.5"
+		style="padding: 4em 0;background-image: url('images/photo-compu.webp');background-position: center;background-attachment: fixed;background-repeat: no-repeat;background-size: cover;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Planes y Precios</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Precios simples, opciones flexibles y nada oculto
+							</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<h5 class="u-text">starter</h5>
+							<h2 class="u-text">$25</h2>
+							<p class="u-text">por mes</p>
+							<p class="u-text u-text-06">25% de descuento por la contratacion anual</p>
+							<p>
+							<ul class="list-style-6">
+								<li>Hosting y Dominio Incluidos</li>
+								<li>5 a 6 Secciones en una sola pagina Interna</li>
+								<li>1 Formulario de Contacto: <strong>Landing Page</strong></li>
+								<li>1 Correo Corporativo</li>
+								<li>Diseño Responsive</li>
+								<li><strong>Posicionamiento</strong> Básico (SEO)</li>
+								<li>Botones para Redes Sociales</li>
+								<li>Sliders de Inicio</li>
+								<li>Galería de Imágenes</li>
+								<li>Tiempo de Entrega: 10 a 15 días</li>
+							</ul>
+							</p>
+						</blockquote>
+						<div class="author to-animate">
+							<a href="#contact">Contratar</a>
+							<!-- <p>
+							Jean Doe, CEO <a href="#">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							</p> -->
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<h5 class="u-text">business</h5>
+							<h2 class="u-text">$89</h2>
+							<p class="u-text">por mes</p>
+							<p class="u-text u-text-06">25% de descuento por la contratacion anual</p>
+							<p>
+							<ul class="list-style-6">
+								<li>Hosting y Dominio <strong>Incluidos</strong></li>
+								<li>5 a 6 Secciones y 2 a 3 paginas Internas</li>
+								<li>Formularios<b> Personalizados</b></li>
+								<li>1 Formulario de Contacto: Landing Page</li>
+								<li>Hasta <strong>5 Correos Corporativos</strong></li>
+								<li>Diseño Responsive</li>
+								<li>Posicionamiento <strong>SEO Avanzado</strong></li>
+								<li>Ficha en <strong>Google My Business</strong> (Maps):<br>
+									Sólo para Negocios Físicos</li>
+								<li><strong>Google Analytics</strong> (Configuración)</li>
+								<li>Botones para Redes Sociales</li>
+								<li>Sliders de Inicio</li>
+								<li>Galería de Imágenes</li>
+								<li>7 Días de Soporte Básico</li>
+								<li>Plugin de Chat Online</li>
+								<li>Tiempo de Entrega: 15 a 25 Días</li>
+							</ul>
+							</p>
+						</blockquote>
+						<div class="author to-animate">
+							<a href="#contact">Contratar</a>
+							<!-- <p>
+							John Doe, Senior UI <a href="#">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							</p> -->
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="box-testimony">
+						<blockquote class="to-animate-2">
+							<h5 class="u-text">premium</h5>
+							<h2 class="u-text">$149</h2>
+							<p class="u-text u-text-11">por mes</p>
+							<p class="u-text u-text-06">25% de descuento por la contratacion anual</p>
+							<p>
+							<ul class="list-style-6">
+								<li><b>Hosting y Dominio </b>Incluidos</li>
+								<li><strong>Carrito de Compras</strong> (Ecommerce)</li>
+								<li>25 Primeros Productos</li>
+								<li><strong>Control de Órdenes, Compras, y Stock</strong></li>
+								<li>Categoría de Productos</li>
+								<li>Pasarela de Pagos: <strong>Zelle, PayPal</strong>, entre otros.</li>
+								<li><strong>Hasta 10 Correos Corporativos</strong></li>
+								<li>5 a 9 Páginas Internas</li>
+								<li>Ficha en Google My Business (Maps)</li>
+								<li>Formularios <strong>Personalizados</strong></li>
+								<li>Hasta <strong>5 Formularios</strong> de Contacto</li>
+								<li>Posicionamiento SEO Avanzado</li>
+								<li>Integración con Google Search Console</li>
+								<li>Configuración con <strong>Google Analytics</strong></li>
+								<li>Botones para Redes Sociales</li>
+								<li>Botón de Chat Online o WhatsApp</li>
+								<li><strong>15 a 20 Días de Soporte</strong></li>
+								<li>Sliders de Inicio</li>
+								<li>Galería de Imágenes y Videos</li>
+								<li>Tiempo de Entrega: 25 a 45 Días</li>
+							</ul>
+							</p>
+						</blockquote>
+						<div class="author to-animate">
+							<a href="#contact">Contratar</a>
+							<!-- <p>
+							Chris Nash, Director <a href="#">FREEHTML5.co</a> <span class="subtext">Creative Director</span>
+							</p> -->
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</section>
+	<!---->
+	<style>
+		h5.u-text {
+			text-align: center;
+			margin: 10px auto;
+			color: burlywood;
+			text-transform: capitalize;
+		}
+
+		h2.u-text {
+			text-align: center;
+			margin: 10px auto;
+			color: cadetblue;
+		}
+
+		p.u-text {
+			text-align: center;
+			margin: 10px auto;
+		}
+
+		p.u-text.u-text-06 {
+			text-align: center;
+			font-size: 0.7em;
+			background-color: #f5f5dc17;
+		}
+
+		.list-style-6 {
+			list-style: none;
+			text-align: center;
+			padding: 10px;
+			height: 500px;
+			overflow-y: scroll;
+			scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+			scrollbar-width: thin;
+		}
+
+		.list-style-6 li {
+			padding: 3px 0;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.589);
+			color: rgb(147, 148, 148);
+			font-size: 0.8em;
+		}
+
+		.list-style-6:hover li {
+			color: white;
+		}
+
+		ul.list-style-6::-webkit-scrollbar {
+			-webkit-appearance: none;
+			width: 10px;
+		}
+
+		ul.list-style-6::-webkit-scrollbar-thumb {
+			/* background-color: #797979; */
+			border-radius: 11px;
+			border: 1px solid #f1f2f3;
+		}
+
+		ul.list-style-6::-webkit-scrollbar-track {
+			border-radius: 10px;
+		}
+
+		#fh5co-testimonials .box-testimony blockquote {
+			background-color: rgba(0, 0, 0, 0.418);
+		}
+
+		#fh5co-testimonials .box-testimony blockquote:after {
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 40px;
+			border-top: 10px solid black;
+			border-top-color: #fff;
+			border-top-color: #030303;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+		}
+	</style>
+
+	<section id="fh5co-services" data-section="services">
+		<a id="services"></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-left">
+					<h2 class=" left-border to-animate">Servicios</h2>
+					<div class="row">
+						<div class="col-md-8 subtext to-animate">
+							<h3>¡Abarcamos los servicios más relevantes para el diseño y desarrollo web, como si de una
+								App se tratase!... </h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-anchor"></i>
+					<h3>Marca &amp; Estrategia</h3>
+					<p>Una decisión a tener en cuenta a la hora de lanzar un producto al mercado es la de poner o no
+						poner una marca asociada al producto. La ley lo único a lo que obliga a las empresas es a
+						identificar el producto.<a class="btn_v-mas">Ver mas...</a></p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-layers2"></i>
+					<h3>Web &amp; Interfaz</h3>
+					<p>La interfaz grafica de usuario son todos los elementos gráfico que nos ayudan a comunicarnos con
+						un sistema. El diseñador de interfaz gráfica de una publicación digital cumple una parte
+						fundamental para aterrizar la ideal central, materializarla y construir los mensajes que
+						permiten la comunicación usuario- sistema. <a href="works/web_&_interfaz/" class="btn_v-mas"
+							target="blank_">Ver mas...</a></p>
+				</div>
+
+				<div class="clearfix visible-sm-block"></div>
+
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-image2"></i>
+					<h3>Imagen &amp; Logotipo</h3>
+					<p>El logotipo se define como un símbolo formado por imágenes o letras que sirve para identificar
+						una empresa, marca, institución o sociedad y las cosas que tienen relación con ellas. Lo más
+						importante de un logotipo es que sea: LEGIBLE independientemente del tamaño al que lo usemos.<a
+							class="btn_v-mas">Ver mas...</a></p>
+				</div>
+				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
+					<i class="icon to-animate-2 icon-monitor"></i>
+					<h3>CMS &amp; eCommerce</h3>
+					<p>Un CMS (Content Management System), o sistema de gestión de contenidos, es un sistema software
+						que nos permite la publicación, edición y modificación de contenidos, así como la posibilidad de
+						modificar el aspecto visual con que éste se muestra.
+
+						En el caso del comercio electrónico (E-Commerce), la principal fuente de contenido con el que
+						nutrir al sistema de gestión serán los productos a la venta.<a class="btn_v-mas">Ver mas...</a>
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-about" data-section="about">
+		<a id="about"></a>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<h2 class="to-animate">Acerca de...</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>Diseño y desarrollo Web.</h3>
+							<div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- <div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="resources/images/person1.jpg" alt="Image"></figure>
+						<h3>Jean Smith</h3>
+						<span class="fh5co-position">Web Designer</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-person text-center to-animate">
+						<figure><img src="resources/images/person2.jpg" alt="Image"></figure>
+						<h3>Rob Smith</h3>
+						<span class="fh5co-position">Web Developer</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p>
+						<ul class="social social-circle">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+						</ul>
+					</div>
+				</div> -->
+					<div class=".col-xs-12 .col-md-4" style="float: none; margin: auto;">
+						<div class="fh5co-person text-center to-animate">
+							<figure>
+								<div style="position: absolute;width: 100%;height: 100%;top: 0;left: 0;">
+									<img class="imagen_perfil" src="resources/images/Foto-perfil-nd.jpg" alt="Image">
+								</div>
+								<div style="position: absolute;width: 100%;height: 100%;top: 0;left: 0;"></div>
+
+
+							</figure>
+							<h3 class="notranslate">Rodolfo Nazario</h3>
+							<span class="fh5co-position">Diseñador Y desarrollador Web</span>
+							<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts</p> -->
+							<p>Aplicaciones a medida. Social Media Marketing y posicionamiento en buscadores.
+								Trabajo en soluciones creativas de comunicación digital para la pequeña empresa.
+								Centrado en ofrecer
+								soluciones prácticas al sector retail como consultor web autónomo.. </p>
+							<ul style="text-align: left;">
+								<li>Diseño de aplicaciones web en entorno PHP, HTML5, Javascript y Node.js.</li>
+								<li>Ecommerce. Sistemas de facturación y venta online a partir Node.js.</li>
+								<li>Diseño de recursos multimedia corporativos. Branding.</li>
+								<li>SEO on Page, tareas de optimización de código para buscadores:
+									Informes.estegrafico.com</li>
+								<li>Manejo de SEMRush, Ahrefs y Consola de GWM. Estudio de nichos, semántica de
+									metadatos,
+									keywords, construcción de campañas de backlinks y depuración de PA en sitios web.
+								</li>
+								<li>CopyWriting y redacción orientada al posicionamiento en buscadores.</li>
+								<li>Diseño de Logotipos y optimización de imagenes para la web.</li>
+							</ul>
+
+
+							<ul class="social social-circle">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section id="fh5co-counters" style="background-image: url(resources/images/full_image_1.webp);"
+		data-stellar-background-ratio="0.5">
+		<div class="fh5co-overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center to-animate">
+					<h2>Hechos curiosos</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-briefcase to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="89" data-speed="5000"
+							data-refresh-interval="50">89</span>
+						<span class="fh5co-counter-label">Proyectos finalizados</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-code to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="2343409" data-speed="5000"
+							data-refresh-interval="50">2343409</span>
+						<span class="fh5co-counter-label">Lineas de codigo</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-cup to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="1302" data-speed="5000"
+							data-refresh-interval="50">1302</span>
+						<span class="fh5co-counter-label">Tazas de cafe</span>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="fh5co-counter to-animate">
+						<i class="fh5co-counter-icon icon-people to-animate-2"></i>
+						<span class="fh5co-counter-number js-counter" data-from="0" data-to="32" data-speed="5000"
+							data-refresh-interval="50">32</span>
+						<span class="fh5co-counter-label">Clientes felices</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="fh5co-contact" data-section="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-heading text-center">
+					<a id="contact"></a>
+					<h2 class="to-animate">Pongase en contacto</h2>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 subtext to-animate">
+							<h3>¿Hola? ¿Hay alguien ahí? Solo asiente si puedes escucharme. ¿Hay alguien en casa? </h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-bottom-padded-md">
+				<div class="col-md-6 to-animate">
+					<h3>Informacion de contacto</h3>
+					<ul class="fh5co-contact-info">
+						<li class="fh5co-contact-address ">
+							<i class="icon-home"></i>
+							Yo... Ahora?... Desde Bucaramanga, <br>Colombia
+						</li>
+						<li><i class="icon-phone"></i> (320) 913 15 20</li>
+						<li><i class="icon-envelope"></i>info@nazardesign.site</li>
+						<li><i class="icon-globe"></i> <a href="#">nazardesign.site</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 to-animate">
+					<form id="form" action="" method="get">
+						<h3>Formulario de contacto</h3>
+						<div class="form-group ">
+							<label for="name" class="sr-only">Nombre</label>
+							<input name="name" id="name" class="form-control" placeholder="Nombre" type="text" required>
+						</div>
+						<div class="form-group ">
+							<label for="email" class="sr-only">Email</label>
+							<input name="email" id="email" class="form-control" placeholder="Esmail" type="email"
+								required>
+						</div>
+						<div class="form-group ">
+							<label for="phone" class="sr-only">Telefono</label>
+							<input name="phone" id="phone" class="form-control" placeholder="Telefono" type="tel"
+								required>
+						</div>
+						<div class="form-group ">
+							<label for="message" class="sr-only">Mensage</label>
+							<textarea name="message" id="message" cols="30" rows="5" class="form-control"
+								placeholder="Escribe un mensage aqui..." required></textarea>
+						</div>
+						<div class="form-group ">
+							<button class="btn btn-primary btn-lg" value="Enviar mensage" type="submit" disabled>Enviar
+								mensage</button>
+							<!-- <div id="boxLoading"><i class="fa fa-refresh fa-spin"></i></div> -->
+						</div>
+				</div>
+				</form>
+			</div>
+
+		</div>
+		</div>
+	</section>
+
+
+	<footer id="footer" role="contentinfo">
+		<!-- FACEBOOK SHARE -->
+		<!-- <div id="facebook_share">
+			<img src="resources/images/iconos/facebook-f-logo.webp" alt="facebook Share" id="facebook_shareImg"
+				style="position: fixed;margin:0;bottom:10px;left:10px;width:60px;z-index:54321">
+			<div>Comparte con tus amigos en facebook</div>
+		</div> -->
+		<!-- WHATSAPP MESSANGER -->
+		<div class="wa__btn_popup">
+			<div class="wa__btn_popup_txt">Nesecitas Consulta? <strong>Conversa conmigo</strong></div>
+			<div class="wa__btn_popup_icon"></div>
+		</div>
+		<div class="wa__popup_chat_box">
+			<div class="wa__popup_heading">
+				<div class="wa__popup_title">iniciar una conversación</div>
+				<div class="wa__popup_intro">¡Oye! Haga clic a continuación para chatear en <strong>WhatsApp ;)</strong>
+					<div id="\&quot;eJOY__extension_root\&quot;"></div>
+				</div>
+			</div>
+			<!-- /.wa__popup_heading -->
+			<div class="wa__popup_content wa__popup_content_left">
+				<div class="wa__popup_notice">generalmente respondo en minutos.</div>
+
+
+				<div class="wa__popup_content_list">
+					<div class="wa__popup_content_item ">
+						<a target="_blank" id="link_wa" href="https://web.whatsapp.com/send?phone=573212176839&amp;text=texto"
+							class="wa__stt wa__stt_online">
+							<div class="wa__popup_avatar">
+								<div class="wa__cs_img_wrap"
+									style="background: url(resources/images/Foto-perfil2-nd.jpg) center center no-repeat; background-size: cover;width: 50px; height: 50px;">
+								</div>
+							</div>
+
+							<div class="wa__popup_txt">
+								<div class="wa__member_name">Rodolfo Nazario</div>
+								<!-- /.wa__member_name -->
+								<div class="wa__member_duty">Consultor, Desarrollador</div>
+								<!-- /.wa__member_duty -->
+							</div>
+							<!-- /.wa__popup_txt -->
+						</a>
+					</div>
+
+
+				</div>
+				<!-- /.wa__popup_content_list -->
+			</div>
+			<!-- /.wa__popup_content -->
+		</div>
+		<style>
+			#facebook_share {
+				position: fixed;
+				margin: 0;
+				bottom: 10px;
+				left: 10px;
+				width: 51px;
+				z-index: 54321;
+			}
+
+			#facebook_share img#facebook_shareImg {
+				position: relative;
+				/* margin: 0; */
+				/* bottom: 10px; */
+				/* left: 10px; */
+				width: 100%;
+				z-index: 54321;
+			}
+
+			#facebook_share div {
+				position: absolute;
+				margin: auto;
+				top: -55px;
+				/* bottom: 0; */
+				line-height: 50px;
+				height: 51px;
+				overflow: hidden;
+				width: 0;
+				color: black;
+				left: 63px;
+				background-color: azure;
+				transition: width .5s;
+			}
+
+			#facebook_share:hover div {
+				width: 400px;
+				padding: 0 5px;
+			}
+		</style>
+		<a href="#"
+			style="display:none; z-index:34236;font-size: 30px; position: fixed; margin:  auto; bottom: 5px; top:auto;width: 45px;height: 45px;padding-top: 0px;left: calc(50% - 45px/2);"
+			class="gotop js-gotop"><i class="icon-arrow-up2"></i></a>
+		<div class="grup_icons" style="text-align: center;font-size:40px;margin:auto"><i class="fa-brands fa-js"
+				style="color: yellow;" title="JavaScript"></i><i class="fa-brands fa-css3" style="color: dodgerblue;"
+				title="Css3"></i><i class="fa-brands fa-html5" style="color: orange;" title="HTML5"></i></div>
+		<div class="grup_icons" style="text-align: center;font-size:40px;margin:auto"><i class="fa-brands fa-vuejs"
+				style="color: #2d6c2d;" title="Vue.js"></i><i class="fa-brands fa-react" style="color: aquamarine;"
+				title="React"></i><i class="fa-brands fa-angular" style="color: #bf3b3b;" title="Angular"></i><i
+				class="fa-brands fa-php" style="color: cadetblue;" title="Php"></i><i class="fa-brands fa-node-js"
+				style="color: cornflowerblue;" title="Node.js"></i></div>
+		<div class="grup_icons" style="text-align: center;font-size:30px;margin:auto"><i class="fa-brands fa-bootstrap"
+				style="color: #8411f6;"></i><i class="fa-brands fa-jquery" title="Nostalgia"></i><i
+				class="fa-brands fa-font-awesome"></i></i></div>
+		<div class="container">
+			<div class="">
+				<div class="col-md-12 text-center">
+					<p> Hecho con <span class="icon-heart" style="color:red;"></span>...&copy; <span
+							class="notranslate">NazarDesign </span><span id="year"></span>. Todos los derechos
+						reservados. <br>Creado por... <a href="https://nazardesign.site/" target="_blank"
+							class="notranslate"
+							style="position:relative;display:inline-block;font-family: 'Allison', cursive;font-size: 30px;color: cornflowerblue;text-shadow: 0px 0px 9px #ffffffa8;transform: matrix(1, -.1, 0.5, 1, -22, 0);">Rodolfo
+							Valentino Nazario Marquez</a> </p>
+					<!-- Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> -->
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<ul class="social social-circle">
+						<!-- <li><a href="#"><i class="icon-twitter"></i></a></li> -->
+						<li><a href="https://www.facebook.com/RodoDevelop"><i class="icon-facebook"></i></a></li>
+						<li><a href="#"><i class="icon-github"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<!-- For demo purposes Only ( You may delete this anytime :-) -->
+	<!-- <div id="colour-variations">
+		<a class="option-toggle"><i class="icon-gear"></i></a>
+		<h3>Preset Colors</h3>
+		<ul>
+			<li>
+				<a href="javascript: void(0);" data-theme="style">
+					<span style="background: #3f95ea;"></span>
+					<span style="background: #52d3aa;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript: void(0);" data-theme="style2">
+					<span style="background: #329998;"></span>
+					<span style="background: #6cc99c;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript: void(0);" data-theme="style3">
+					<span style="background: #9f466e;"></span>
+					<span style="background: #c24d67;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript: void(0);" data-theme="style4">
+					<span style="background: #21825C;"></span>
+					<span style="background: #A4D792;"></span>
+					<span style="background: #f2f2f2;"></span>
+				</a>
+			</li>
+			
+		</ul>
+	</div> -->
+	<!-- End demo purposes only -->
+
+
+	<!-- jQuery -->
+
+
+
+
+
+	<!-- <script src="resources/js/jquery.min.js"></script> -->
+	<!-- jQuery Easing -->
+	<script src="resources/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<!-- <script src="resources/js/bootstrap.min.js"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+		crossorigin="anonymous"></script>
+	<!-- Waypoints -->
+	<script src="resources/js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="resources/js/jquery.stellar.min.js"></script>
+	<!-- Counter -->
+	<script src="resources/js/jquery.countTo.js"></script>
+	<!-- mobiledetect -->
+	<script src="resources/js/mobiledetect.js"></script>
+	<!-- Magnific Popup -->
+	<script src="resources/js/jquery.magnific-popup.min.js?v=1.1.3.0"></script>
+	<script src="resources/js/magnific-popup-options.js?v=1.1.4.0"></script>
+	<script src="resources/js/text_animation.js?v=1.1.6.0"></script>
+	<!-- Google Map
+	-->
+
+	<!-- For demo purposes only styleswitcher ( You may delete this anytime ) -->
+	<script src="resources/js/jquery.style.switcher.js"></script>
+	<script src="resources/js/main.js?v=1.1.3.0"></script>
+	<script>
+
+		(function ($) {
+			var wa_time_out, wa_time_in;
+			$(document).ready(function () {
+				$(".wa__btn_popup").on("click", function () {
+					if ($(".wa__popup_chat_box").hasClass("wa__active")) {
+						$(".wa__popup_chat_box").removeClass("wa__active");
+						$(".wa__btn_popup").removeClass("wa__active");
+						clearTimeout(wa_time_in);
+						if ($(".wa__popup_chat_box").hasClass("wa__lauch")) {
+							wa_time_out = setTimeout(function () {
+								$(".wa__popup_chat_box").removeClass("wa__pending");
+								$(".wa__popup_chat_box").removeClass("wa__lauch");
+							}, 400);
+						}
+					} else {
+						$(".wa__popup_chat_box").addClass("wa__pending");
+						$(".wa__popup_chat_box").addClass("wa__active");
+						$(".wa__btn_popup").addClass("wa__active");
+						clearTimeout(wa_time_out);
+						if (!$(".wa__popup_chat_box").hasClass("wa__lauch")) {
+							wa_time_in = setTimeout(function () {
+								$(".wa__popup_chat_box").addClass("wa__lauch");
+							}, 100);
+						}
+					}
+				});
+
+				function setCookie(cname, cvalue, exdays) {
+					var d = new Date();
+					d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+					var expires = "expires=" + d.toUTCString();
+					document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+				}
+
+				function getCookie(cname) {
+					var name = cname + "=";
+					var ca = document.cookie.split(";");
+					for (var i = 0; i < ca.length; i++) {
+						var c = ca[i];
+						while (c.charAt(0) == " ") {
+							c = c.substring(1);
+						}
+						if (c.indexOf(name) == 0) {
+							return c.substring(name.length, c.length);
+						}
+					}
+					return "";
+				}
+
+				$("#nta-wa-gdpr").change(function () {
+					if (this.checked) {
+						setCookie("nta-wa-gdpr", "accept", 30);
+						if (getCookie("nta-wa-gdpr") != "") {
+							$('.nta-wa-gdpr').hide(500);
+							$('.wa__popup_content_item').each(function () {
+								$(this).removeClass('pointer-disable');
+								$('.wa__popup_content_list').off('click');
+							})
+						}
+					}
+				});
+
+				if (getCookie("nta-wa-gdpr") != "") {
+					$('.wa__popup_content_list').off('click');
+				} else {
+					$('.wa__popup_content_list').click(function () {
+						$('.nta-wa-gdpr').delay(500).css({ "background": "red", "color": "#fff" });
+					});
+				}
+			});
+		})(jQuery);
+
+
+
+		let year = new Date().getFullYear();
+		document.querySelector("#year").textContent = year;
+		$(function () {
+			$('#colour-variations ul').styleSwitcher({
+				defaultThemeId: 'theme-switch',
+				hasPreview: false,
+				cookie: {
+					expires: 30,
+					isManagingLoad: true
+				}
+			});
+			$('.option-toggle').click(function () {
+				$('#colour-variations').toggleClass('sleep');
+			});
+			// MOBILEDETEC 
+			var md = new MobileDetect(window.navigator.userAgent);
+
+			if(md.mobile() != null || md.phone() != null || md.tablet() != null){
+				document.querySelector('#link_wa').setAttribute('href','https://wa.me/573212176839')
+			}
+
+
+		});
+
+
+
+		(async () => {
+			let url = 'resources/js/bd_proyets.json';
+			let response = await fetch(url, { cache: "no-cache" });
+			let db = await response.json();
+			var proyects = "", object = db;
+			for (const key in object) {
+				if (Object.hasOwnProperty.call(object, key)) {
+					const element = object[key];
+					var tip_elem = element.tip_elem == "img" ? "image-popup" : "popup-iframe"
+					// console.log(element.title);
+					// if(element.tip_elem == "iframe"){}
+					proyects += `<div class="article  to-animate">
+					<a href="${element.link_demo}" class="fh5co-project-item ${tip_elem}">
+						<img src="${element.link_img}" alt="Image" class="img-responsive">
+						<div class="fh5co-text">
+						<!--h2>${element.title}</h2>
+						<span>${element.description}</span-->
+						</div>
+					</a>
+				</div>`/**/
+				}
+
+			}
+			document.querySelector("#galeria").innerHTML = proyects;
+			magnifPopup();
+			magnifVideo();
+			// workAnimate()
+			__in()
+		})()
+
+	</script>
+	<!-- End demo purposes only -->
+
+	<!-- Main JS (Do not remove) -->
+
+	<script>
+		$(document).ready(function () {
+			// console.log("Pagina cargada...");
+
+			// $("img[src='https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png']").parents("div").hide()
+
+			$("img[src='https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png']").parents("div").remove()
+		});
+
+	</script>
+	<!-- Modified by Novikov.ua -->
+	<style type="text/css">
+		a.gflag {
+			vertical-align: middle;
+			font-size: 15px;
+			padding: 0px;
+			background-repeat: no-repeat;
+			background-image: url(//gtranslate.net/flags/16.png);
+		}
+
+		a.gflag img {
+			border: 0;
+		}
+
+		a.gflag:hover {
+			background-image: url(//gtranslate.net/flags/16a.png);
+		}
+
+		#goog-gt-tt {
+			display: none !important;
+		}
+
+		.goog-te-banner-frame {
+			display: none !important;
+		}
+
+		.goog-te-menu-value:hover {
+			text-decoration: none !important;
+		}
+
+		.goog-text-highlight {
+			background-color: transparent !important;
+			box-shadow: none !important;
+		}
+
+		body {
+			top: 0 !important;
+		}
+
+		#google_translate_element2 {
+			display: none !important;
+		}
+
+		div.grup_icons i {
+			margin-right: 10px;
+		}
+
+		.fa-jquery {
+			font-size: 20px;
+			font-weight: 800;
+			/* font-family: "Open Sans"; */
+			border-style: solid;
+			border-width: 1px;
+			padding: 0;
+			text-decoration: none;
+			background-image: url("data:image/svg+xml,%0A%3Csvg width='2500' height='566' viewBox='0 0 512 116' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cpath d='M489.718 8.646l21.42.118s-39.824 53.964-43.076 58.362c-1.056 1.424-2.66 2.96-3.474 4.864-2.057 4.786-4.169 15.285-4.169 15.285l-19.599.098s3.05-10.944 2.924-16.773c-.11-5.092-2.71-10.178-4.168-15.285-1.474-5.17-3.475-15.286-3.475-15.286h20.15l2.779 11.117 30.688-42.5' fill='%231A1918'/%3E%3Cpath d='M449.157 20.027c3.953 2.383 6.379 15.529 6.379 15.529s-20.684.305-31.94.305h-9.727l-11.812 51.414h-18.064s11.242-55.874 13.896-66.004c.86-3.28 5.892-2.717 14.389-2.717h13.569c8.762 0 19.003-1.119 23.31 1.473M365.06 45.067s.563-3.3-1.91-7.122c-2.113-3.258-4.064-4.016-9.623-4.19-15.695-.493-15.39 11.138-15.39 11.138l26.923.174zm17.022-13.32c2.3 8.297-2.084 27.792-2.084 27.792s-22.894-.382-35.434 0c-3.899.119-8.566-.424-9.727 1.39-1.633 2.542.597 6.455 2.487 8.108 2.175 1.903 6.412 2.12 7.935 2.313 10.178 1.293 31.48.334 31.48.334l-3.69 16.34s-30.103 1.51-45.16-2.084c-2.973-.708-5.76-2.139-7.643-4.168-.514-.555-.96-1.312-1.446-1.966-.388-.522-1.52-2.237-2.028-3.593-3.439-9.164.403-26.72 4.169-36.128.437-1.09.986-2.473 1.564-3.648.722-1.465 1.333-3.119 1.91-3.995.388-.604.869-.993 1.272-1.563.465-.674 1.006-1.327 1.507-1.91 1.39-1.612 2.967-2.752 4.864-4.168 6.273-4.698 17.626-8.345 31.265-6.949 5.135.528 12.89 2.362 16.675 7.643 1.014 1.41 1.515 4.21 2.084 6.253zM299.229 18.49l17.516-.103s-9.762 46.307-14.737 68.888h-20.15c-14.082 0-26.623 1.744-31.959-8.338-5.176-9.789-.236-25.887 2.084-36.824 1.64-7.74 5.094-23.56 5.094-23.56l18.148-.166s-5.128 24.63-7.262 36.928c-.764 4.405-2.34 8.553-.694 11.81 1.563 3.1 3.752 3.322 10.421 3.475 2.113.05 9.033 0 9.033 0l12.506-52.11M217.244 51.84c1.834-6.516 4.509-13.582 4.169-19.454-.368-6.28-5.634-11.998-9.032-13.2-10.234-3.613-19.815 1.438-23.623 5.558-4.926 5.336-6.594 11.569-8.338 20.15-1.298 6.37-2.362 13.095 0 18.063 4.182 8.783 17.224 6.865 31.266 6.949 2.084-5.586 3.807-11.86 5.558-18.066zm24.318-25.706c2 14.548-5.676 30.606-10.964 44.57 5.392.487 10.117-.075 10.457.327.354.521-3.614 16.668-4.997 16.71-4.279.111-18.459.229-24.372.229-19.295 0-37.345 1.257-46.55-8.337-3.738-3.898-6.323-10.583-6.949-15.286-1.042-7.851.264-16.495 2.085-23.622 1.647-6.435 3.758-12.507 6.948-18.066C175.328 8.507 189.432-1.998 213.075.427c4.586.472 11.172 2.48 15.286 4.863.284.167 1.279.959 1.507 1.098 5.559 3.537 10.624 11.978 11.694 19.746zM156.193 18.574c-1.167 5.315-2.334 11.34-3.564 16.592h-19.454c1.507-5.822 2.661-11.61 4.169-16.675 6.225 0 12.013.083 18.85.083M132.48 40.03h18.76c-2.453 13.576-7.31 35.475-11.117 50.719-2.383 9.54-3.974 16.501-10.422 21.538-.577.452-.91.237-1.39.695-1.188 1.133-6.684 2.447-9.726 2.779-4.947.536-10.54.07-16.62-.055 1.591-5.815 3.391-12.798 4.809-18.01 14.82 1.794 15.195-12.214 18.064-25.706 1.66-7.796 6.691-28.834 7.642-31.96' fill='%231A1918'/%3E%3Cg fill='%2321609B'%3E%3Cpath d='M88.708 75.464l-.402 1.042c-6.85 13.34-18.989 21.524-36.303 21.885-8.094.167-15.806-1.91-20.844-4.168C20.287 89.338 11.142 80.279 6.148 70.6c-7.164-13.875-8.456-33.176 6.44-47.592.23 0-1.807 3.126-1.577 3.126l-.41 1.334C-.133 61.074 32.938 89.874 65.086 86.58c7.726-.792 17.578-5.023 23.622-11.116'/%3E%3Cpath d='M69.254 61.568c8.088.055 16.536-3.725 21.539-9.032-4.377 11.11-17.05 18.251-34.044 15.98-14.23-1.904-27.785-16.223-29.181-30.571-1.021-10.442 2.618-16.674 8.615-24.234-2.084 3.954-2.863 7.003-3.057 8.948-2.278 22.588 18.044 38.79 36.128 38.909'/%3E%3Cpath d='M89.98 33.512c-1.257 2.884-8.496 8.33-11.693 9.011-12.659 2.697-20.766-3.306-25.013-10.137-.631-1.02-1.798-3.806-2.007-4.515-1.647-5.6-.89-14.07 4.023-18.454-1.48 4.169-1.696 9.011-.917 12.159.472 1.903 1.91 5.226 3.349 7.316 2.618 3.807 4.279 4.732 7.642 6.754 1.515.91 3.14 1.64 3.842 1.84 3.189.939 9.922 3.412 20.775-3.974'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+			background-size: 100%;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-color: #ffffff12;
+			/* width: 100%; */
+			/* height: 100%; */
+		}
+
+		i.fa-jquery::before {
+			content: " _jQuery";
+			color: transparent;
+		}
+	</style>
+
+
+
+
+
+	<div id="google_translate_element2"></div>
+
+	<script type="text/javascript">
+		function googleTranslateElementInit2() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'es',
+				autoDisplay: false
+			}, 'google_translate_element2');
+
+		}
+	</script>
+	<script type="text/javascript"
+		src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+	<script type="text/javascript">
+		/* <![CDATA[ */
+		eval(function (p, a, c, k, e, r) {
+			e = function (c) {
+				return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+			};
+			if (!''.replace(/^/, String)) {
+				while (c--) r[e(c)] = k[c] || e(c);
+				k = [function (e) {
+					return r[e]
+				}];
+				e = function () {
+					return '\\w+'
+				};
+				c = 1
+			}
+			while (c--) if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+
+			return p
+		}('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+    /* ]]> */
+
+	</script>
+
+
+	<style>
+		.loading {
+			/* position: fixed; */
+			display: table;
+			text-align: center;
+			vertical-align: middle;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			background-color: rgba(0, 0, 0, 0.342);
+			/* z-index: 9999; */
+			/* background: url('https://www.tmogroup.asia/wp-content/uploads/2018/05/001gif.gif?x96783') 50% 50% no-repeat rgba(41, 40, 40, 0.445); */
+			/* opacity: .8; */
+		}
+
+		.lds-roller {
+			/* display: table-cell;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle; */
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 100px;
+			height: 100px;
+		}
+
+		.lds-roller div {
+			animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+			transform-origin: 40px 40px;
+		}
+
+		.lds-roller div:after {
+			content: " ";
+			display: block;
+			position: absolute;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background: #fff;
+			margin: -4px 0 0 -4px;
+		}
+
+		.lds-roller div:nth-child(1) {
+			animation-delay: -0.036s;
+		}
+
+		.lds-roller div:nth-child(1):after {
+			top: 63px;
+			left: 63px;
+		}
+
+		.lds-roller div:nth-child(2) {
+			animation-delay: -0.072s;
+		}
+
+		.lds-roller div:nth-child(2):after {
+			top: 68px;
+			left: 56px;
+		}
+
+		.lds-roller div:nth-child(3) {
+			animation-delay: -0.108s;
+		}
+
+		.lds-roller div:nth-child(3):after {
+			top: 71px;
+			left: 48px;
+		}
+
+		.lds-roller div:nth-child(4) {
+			animation-delay: -0.144s;
+		}
+
+		.lds-roller div:nth-child(4):after {
+			top: 72px;
+			left: 40px;
+		}
+
+		.lds-roller div:nth-child(5) {
+			animation-delay: -0.18s;
+		}
+
+		.lds-roller div:nth-child(5):after {
+			top: 71px;
+			left: 32px;
+		}
+
+		.lds-roller div:nth-child(6) {
+			animation-delay: -0.216s;
+		}
+
+		.lds-roller div:nth-child(6):after {
+			top: 68px;
+			left: 24px;
+		}
+
+		.lds-roller div:nth-child(7) {
+			animation-delay: -0.252s;
+		}
+
+		.lds-roller div:nth-child(7):after {
+			top: 63px;
+			left: 17px;
+		}
+
+		.lds-roller div:nth-child(8) {
+			animation-delay: -0.288s;
+		}
+
+		.lds-roller div:nth-child(8):after {
+			top: 56px;
+			left: 12px;
+		}
+
+		@keyframes lds-roller {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		.section-heading h2 {
+			color: #a3a3a3 !important;
+			text-transform: capitalize;
+			text-shadow: 1px 0px 0px white;
+			font-family: 'Grand Hotel', cursive;
+		}
+
+		a {
+			text-transform: capitalize;
+			font-family: 'victor Momo', cursive;
+
+		}
+
+		.btn-primary.disabled,
+		.btn-primary:disabled {
+			cursor: no-drop !important;
+		}
+	</style>
+	<script>
+		if (localHost) document.querySelector("body").style.userSelect = "auto";
+		$(document).ready(function () {
+
+			// window.name = {'cosa':'esta'}
+			$("#form input, #form textarea").keyup(function () {
+				var form = $(this).parents("#form");
+				var check = checkCampos(form);
+				if (check) {
+					$(".btn-lg").prop("disabled", false);
+				}
+				else {
+					$(".btn-lg").prop("disabled", true);
+				}
+			});
+			function checkCampos(obj) {
+				var camposRellenados = true;
+				obj.find("input, textarea").each(function () {
+					var $this = $(this);
+					if ($this.val().length <= 0) {
+						camposRellenados = false;
+						return false;
+					}
+				});
+				if (camposRellenados == false) {
+					return false;
+				}
+				else {
+					return true;
+				}
+			}
+			$("a[href=#contact]").on('click', function (ev) {
+				// console.log("paso...");
+				var msm = $(this).data("message");
+				setTimeout(function () {
+					$("input#name").focus();
+					$("textarea#message").val(msm);
+				}, 500)
+				ev.stopImmediatePropagation()
+			})
+
+			$('.btn-lg').on('click', function (e) {
+				var that = $(this)
+				e.preventDefault()
+				var form = $('#form');
+				let check = checkCampos(form);
+				if (!check) {
+					$(".btn-lg").prop("disabled", true);
+					return false;
+				}
+				// var datos_form = decodeURIComponent(form.serialize());
+				var datos_form = form.serializeObj();
+
+				// var ObjString = '{"'+datos_form.replace(/[&]/g,'", "').replace(/[=]/g,'":"')+'"}';
+				// var ObjJson = JSON.parse(ObjString)
+
+				console.log(datos_form);
+
+
+				$.ajax({
+					type: "post",
+					url: "admin/php/bd_json.php",
+					data: { datos: datos_form },
+					dataType: "text",
+					beforeSend: function () {
+						// $('#boxLoading').addClass('loading');
+						$('.btn-lg').attr('disabled', 'disabled').prepend('<i class="fa fa-refresh fa-spin"></i> ');
+					},
+					success: function (response) {
+						console.log(response);
+
+					},
+					complete: function () {
+						$('i.fa-refresh').replaceWith('<i class="fa fa-check" aria-hidden="true"></i>');
+						form[0].reset();
+						setTimeout(function () {
+							// $('#boxLoading').removeClass('loading');
+							$('.btn-lg').find('i.fa').remove();// //
+						}, 2000)
+					}
+				});/**/
+			})
+		});
+		(function ($) {
+
+			// Declaración del plugin.
+			$.fn.serializeObj = function (options) {
+
+				// Obtenemos los parámetros.
+				options = $.extend({}, $.fn.serializeObj.defaultOptions, options);
+				var value = {};
+				this.find('[name]').each(function () {
+					var element = $(this);
+					value[element.attr('name')] = element.val().replace(/&amp;/g, '&').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+					//  element.addClass(options.element_class);
+					//  element.css('color', 'blue');
+					console.log(element)
+					// return element;
+				});
+
+				return JSON.stringify(value)
+			}
+
+		})(jQuery);
+		var cont = 0;
+		// $(document).mouseleave(function () {
+
+		//     console.log('out');
+		// 	if(cont > 0) return false;
+		// 	$.magnificPopup.open({
+		// 	items: {
+		// 		src: 'https://nazardesign.site/suscript/'
+		// 	},
+		// 		type: 'iframe'
+		// 	});
+		// 	cont++
+		// });
+		let img = document.querySelectorAll("img");
+
+		function multipleEventsListeners(elem, events, func) {
+			var event = events.split(' ');
+			for (var i = 0; i < event.length; i++) {
+				elem.addEventListener(event[i], func, false);
+			}
+		}
+		img.forEach(element => {
+			multipleEventsListeners(element, 'contextmenu dragstart mousedown selectstart', function (e) {
+				console.log(this.src);
+				return false;
+
+			});
+		});
+
+	</script>
+	<!-- <script>alert('Hola')</script> -->
+	<!-- Modified by Novikov.ua -->
+
+
+</body>
+
+</html>

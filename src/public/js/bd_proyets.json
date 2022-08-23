@@ -1,0 +1,73 @@
+{
+    
+    "proyect_1": {
+        "tip_elem":"iframe",
+        "link_demo": "works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL2NvbGRiZXJncy8=",
+        "link_img": "https://html.design/wp-content/uploads/2020/10/coldbergs-600x800.jpg",
+        "title": "Projecto Web 1",
+        "description": "Coldbergs"
+    },
+    "proyect_2": {
+        "tip_elem":"iframe",
+        "link_demo": "works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL2JhY2tvbi8=",
+        "link_img": "https://html.design/wp-content/uploads/2021/09/banner_pre_-600x800.png",
+        "title": "Proyecto Web 2",
+        "description": "Backon"
+    },
+    "proyect_3": {
+        "tip_elem":"iframe",
+        "link_demo": "works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL2ZlYW5lLw==",
+        "link_img": "https://html.design/wp-content/uploads/2021/04/Feane-400x500.jpg",
+        "title": "Projecto Web 3",
+        "description": "Feane"
+    },
+    "proyect_4": {
+        "tip_elem":"img",
+        "link_demo": "https://www.designevo.com/res/templates/thumb_small/red-sun-and-fly-phoenix.webp",
+        "link_img": "https://www.designevo.com/res/templates/thumb_small/red-sun-and-fly-phoenix.webp",
+        "title": "Projecto logotipo 4",
+        "description": "red sun and fly phoenix"
+    },
+    "proyect_5": {
+        "tip_elem":"img",
+        "link_demo": "https://www.designevo.com/res/templates/thumb_small/black-ink-and-guitar.webp",
+        "link_img": "https://www.designevo.com/res/templates/thumb_small/black-ink-and-guitar.webp",
+        "title": "Projecto logotipo 2",
+        "description": "/black ink and guitar"
+    },
+    "proyect_6": {
+        "tip_elem":"iframe",
+        "link_demo": "works/demo?work_id=aHR0cHM6Ly9odG1sLmRlc2lnbi9kZW1vL3ByaWNpbmctdGFibGVzLXYxLw==",
+        "link_img": "https://html.design/wp-content/uploads/2019/03/green-600x800.jpg",
+        "title": "Projecto Web 4",
+        "description": "Tablas de precios adaptables"
+    },
+    "proyect_7": {
+        "tip_elem":"img",
+        "link_demo": "https://www.designevo.com/res/templates/thumb_small/brown-and-chocolate-ice-cream-cone.webp",
+        "link_img": "https://www.designevo.com/res/templates/thumb_small/brown-and-chocolate-ice-cream-cone.webp",
+        "title": "Projecto Logotipo 3",
+        "description": "brown and chocolate ice cream cone"
+    },
+    "proyect_8": {
+        "tip_elem":"img",
+        "link_demo": "https://www.designevo.com/res/templates/thumb_small/white-and-pink-cupcake.webp",
+        "link_img": "https://www.designevo.com/res/templates/thumb_small/white-and-pink-cupcake.webp",
+        "title": "Projecto 4",
+        "description": "white and pink cupcake"
+    },
+    "proyect_9": {
+        "tip_elem":"img",
+        "link_demo": "https://www.designevo.com/res/templates/thumb_small/brown-and-black-hot-coffee.webp",
+        "link_img": "https://www.designevo.com/res/templates/thumb_small/brown-and-black-hot-coffee.webp",
+        "title": "Projecto 2",
+        "description": "Brown and Black Hot Coffee"
+    },
+    "proyect_10": {
+        "tip_elem":"iframe",
+        "link_demo": "works/demo?work_id=https://html.design/demo/chamb/",
+        "link_img": "https://html.design/wp-content/uploads/2019/03/chamb-758x948.jpg",
+        "title": "Projecto web",
+        "description": " Chamb - Plantilla de comercio electrónico de muebles"
+    }
+}
