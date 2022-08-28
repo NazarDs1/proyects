@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>    
+    <style>
+        span.span{
+            /* background-color: cornflowerblue; */
+            vertical-align: middle;
+        }
+
+         
+    </style>
+</head>
+<table align="center" style="margin: auto;border: 1px solid black; width: 80%;border-collapse:collapse;border-spacing:0;padding: 0px 100px;background-color: grey;">
+
+    <thead style="background-color: mediumseagreen;text-align: center; vertical-align: middle;">
+        <tr>
+            <td colspan="2"><span class="span" style="width:350px;display:inline-block;"><img src="https://naz-d.herokuapp.com/resources/images/NazarDesing_logo_fotoperfil.png" style="max-width: 200px;vertical-align: middle;" alt="nazardesign"></span><span class="span" style="width:350px;display:inline-block;"><img src="https://nazardesign.site/suscript/resources/images/logo_letra_2.png" alt="" style="max-width: 350px;vertical-align: middle;"></span></td>
+            <!-- <td style="text-align: right;border: 1px solid transparent; padding-left: 150px;"><img src="https://nazardesign.site/suscript/resources/images/NazarDesing_logo_fotoperfil.png" style="max-width: 200px;" alt="nazardesign"></td>
+            <td style="text-align: left;border: 1px solid transparent;"><img src="https://nazardesign.site/suscript/resources/images/logo_letra_2.png" alt=""></td> -->
+        </tr>    
+    </thead>
+    <tbody style="background-color: rgb(124, 209, 188);width: 80%;">
+        <tr style="background-image: url(https://naz-d.herokuapp.com/resources/images/background_video.png);background-size: cover cover;background-position: center;background-attachment: fixed;background-repeat: no-repeat;background-clip: border-box;">
+            <% if (user_firstname) { %>
+                
+             
+            <td colspan="2" style="text-align: center;border: 1px solid transparent;padding: 50px 100px;"><span style="font-size: 35px;background-color: rgba(255, 255, 255, 0.301);">Welcome <%= user_firstname %>¡</span><br><p style=" display:inline-block; position:relative; font-family:Georgia;font-size: 25px;width: 450px;background-color: rgba(255, 255, 255, 0.301);padding: 20px;">¡Hola…! Un gusto en que formes parte de este gran grupo de trabajo. Tú, y yo, trabajaremos en la búsqueda de herramientas diseñadas para el desarrollo de tu emprendimiento </p> </td>
+             <% } %>
+        </tr>
+        <tr>
+            <td colspan="2"><hr style="background-color: black;border-color: transparent"></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;border: 1px solid transparent;padding: 50px;"><img src="https://naz.com/resources/images/social/friends.png" alt="friends" style="max-width: 150px;"><p style="font-size: 25px;">Invita a todos tus amigos a que visiten mi sitio web...</p><p style="padding: 3px;background-color: orange;">...Aqui en tre nos... podras obtener una sorpresa </p><a target="_blank" href="https://nazardesign.site"><img title="mi Website" src="https://pmrrtl.stripocdn.email/content/assets/img/other-icons/logo-colored/link-logo-colored.png" alt="Website" width="64"></a></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" style="text-align: center;background-color: rgb(41, 49, 45);padding: 50px;"><span style="color: lightslategray;">Mis redes sociales</span><p><a target="_blank" href><img title="Facebook" src="https://pmrrtl.stripocdn.email/content/assets/img/social-icons/logo-gray/facebook-logo-gray.png" alt="Fb" width="32"></a>
+                <a target="_blank" href><img title="Twitter" src="https://pmrrtl.stripocdn.email/content/assets/img/social-icons/logo-gray/twitter-logo-gray.png" alt="Tw" width="32"></a>
+                <a target="_blank" href><img title="Instagram" src="https://pmrrtl.stripocdn.email/content/assets/img/social-icons/logo-gray/instagram-logo-gray.png" alt="Inst" width="32"></a>
+                <a target="_blank" href><img title="Youtube" src="https://pmrrtl.stripocdn.email/content/assets/img/social-icons/logo-gray/youtube-logo-gray.png" alt="Yt" width="32"></a>
+                <a target="_blank" href><img title="GitHub" src="https://pmrrtl.stripocdn.email/content/assets/img/other-icons/logo-gray/github-logo-gray.png" alt="GitHub" width="32"></a>
+                <a target="_blank" href><img title="Pinterest" src="https://pmrrtl.stripocdn.email/content/assets/img/social-icons/logo-gray/pinterest-logo-gray.png" alt="P" width="32"></a></p><p style="color: gray">® By Rodolfo Nazario, desde Nazardesig, en algún lugar 2021</p> </td>
+        </tr>
+        <tr>
+            
+        </tr>
+    </tfoot>
+  
+  </table>
+
+</body>
+</html>

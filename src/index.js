@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
-const engine = require('ejs-mate');
+// var favicon = require('serve-favicon');
+// const engine = require('ejs-mate');
+var ejs = require("ejs");
 const path = require('path');
 const mongoose = require('mongoose');
 const passport = require('passport');
@@ -11,7 +13,10 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 
 
-
+global.appRoot = path.resolve(__dirname);
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+app.use(express.json()) // for parsing application/json
+app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 app.use('/resources',express.static('public'));
 app.use('/resources', express.static(__dirname + '/public'));
 // const { url } = require('./config/database.js');
@@ -42,9 +47,10 @@ app.get('/', (req, res) => {
 // require('./config/passport')(passport);
 
 // settings
+
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
-app.engine('ejs', engine);
+// app.engine('ejs', engine);
 app.set('view engine', 'ejs');
 // middlewares
 // app.use(morgan('dev'));
