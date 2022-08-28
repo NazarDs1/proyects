@@ -14,7 +14,7 @@ const session = require('express-session');
 
 
 global.appRoot = path.resolve(__dirname);
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
+// app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')))
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 app.use('/resources',express.static('public'));

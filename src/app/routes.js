@@ -29,7 +29,7 @@ decodeBase64 = function(s) {
   return r;
 };
 
-console.log(appRoot + '/lib/moduleB/component2.js')
+// console.log(appRoot + '/lib/moduleB/component2.js')
 const send_email = require(__dirname + '/ms/send-email');
 router.post('/send', async  (req, res)=>{
   let dats= JSON.parse(req.body.datos);
