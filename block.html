@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+
+    <div id="cont_blog"></div>
+    <script>
+function ipGetAddress(format) {
+  requestFetch = function() {
+    // perform the action..
+    console.log('** beforeSend request fetch **');
+    return fetch.apply(this, arguments);
+  }
+
+  requestFetch(format).then((response) => {
+    return response.text();
+  }).then((data) => {
+    // console.log(data.ip);
+    document.querySelector('#cont_blog').innerHTML = data;
+
+  });
+}
+
+ipGetAddress('https://naz-d.000webhostapp.com/', {method: 'get', cache:'no-cache',mode: 'cors'});//https://naz-d.000webhostapp.com/
+
+
+    </script>
+</body>
+</html>
