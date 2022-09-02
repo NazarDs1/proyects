@@ -47,7 +47,7 @@ router.post('/send', async  (req, res)=>{
           // emailTemplate = result;
           // res.send(emailTemplate);
           // console.log(result);
-          enviar(result, dats.email,'rodolfo@naz-d.com', 'Saludo de Bienvenida');
+          enviar(result, dats.email,'rodolfo@naz-d.com', 'Su suscripción de diseño y desarrollo de sitios web');
         
         })
         .catch(err => {
@@ -82,7 +82,7 @@ function enviar(emailTemplate, to, from, ms) {
                   //  res.redirect('/?alertTitle=Hola')
                   if(c < 1 ){
 
-                    enviar('<h3>'+dats.email+' se a suscrito a nazardesign</h3><br><h3>'+dats.name+' se a suscrito a nazardesign</h3>', 'rodolfo@naz-d.com','rodolfo@naz-d.com','Nuevo Suscriptor');                   
+                    enviar('<h3>'+dats.email+' se a suscrito a nazardesign</h3><p> Nombre:'+dats.name+' </p><p>Mensaje: '+dats.message+'</p><p> Telefono:'+dats.phone+'</p>', 'rodolfo@naz-d.com','rodolfo@naz-d.com','Nuevo Suscriptor');                   
                     c++;
                   }
                   if (c == 1) {
