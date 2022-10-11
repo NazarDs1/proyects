@@ -101,7 +101,7 @@ router.post('/signup', passport.authenticate('local-signup', {
   failureFlash: true
  
 
-router.get('/signin', (req, res, next) => {
+router.get('/signin', (req, res, next) => { 
   res.render('signin');
 });
 
