@@ -22,7 +22,7 @@ app.use('/resources',express.static('public'));
 app.use('/resources', express.static(__dirname + '/public'));
 // const { url } = require('./config/database.js');
 var allowedOrigins = ['http://localhost:3000',
-                      'https://naz-d.com','https://www.naz-d.com'];
+                      'https://naz-d.com','https://www.naz-d.com','https://hoppscotch.io/'];
 app.use(cors({
   origin: function(origin, callback){
     // allow requests with no origin 
