@@ -10,7 +10,7 @@ const { JSDOM } = jsdom;
 // };
 let val;
 function scraping(res, url){
-  curl.request(url, function(a, b, c){
+  curl.request({url:url,useragent:'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/525.13 (KHTML, like Gecko) Chrome/0.A.B.C Safari/525.13'}, function(a, b, c){
     // const body = b.text();
   //  let content = b;
     const { window: { document } } = new jsdom.JSDOM(b);
